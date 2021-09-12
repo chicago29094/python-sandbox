@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-import sys
 
-print(f'{sys}')
-print(f'{sys.argv}')
-print(f'{len(sys.argv)}')
+word = 'Monstrous Yamaha'
+drow = word[-6:16]
 
-for arg in sys.argv:
-    print(f'{arg}')
+print(word)
+print(len(word))
+
+for char in word[1:5]:
+    print(char)
+
 
