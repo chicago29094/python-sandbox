@@ -12,6 +12,7 @@ print('crabgrass' in basket)
 
 a = set('abracadabra')
 b = set('alacazam')
+a
 print(a)                                  # unique letters in a
 
 print(a - b)                              # letters in a but not in b
